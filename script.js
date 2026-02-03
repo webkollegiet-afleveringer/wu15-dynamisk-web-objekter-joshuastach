@@ -21,27 +21,27 @@
 // console.log(person.hometown);
 
 
-// let person ={
-//     firstname: "Bro",
-//     lastname: "Zo",
-//     single: true,
-//     age: 19,
-//     hobbies: ["Art", "2D Artist/2D Animator", "3D Designer", "Musican"],
-//     hometown: "BrobroTown",
-//     pet:{
-//         type: "Beanie",
-//         name: "Robert Nymand"
-//     },
-// }
+let person ={
+    firstname: "Bro",
+    lastname: "Zo",
+    single: true,
+    age: 19,
+    hobbies: ["Art", "2D Artist/2D Animator", "3D Designer", "Musican"],
+    hometown: "BrobroTown",
+    pet:{
+        type: "Beanie",
+        name: "Robert Nymand"
+    },
+}
 
-// person.hobbies.forEach(function(hobby) {
-//     console.log(hobby);
+person.hobbies.forEach(function(hobby) {
+    console.log(hobby);
        
-// })
-// console.log(person.pet.type);
-// console.log(person.pet.name);
+})
+console.log(person.pet.type);
+console.log(person.pet.name);
 
-// console.log(person);
+console.log(person);
 
 let newDiv = document.createElement("div");
 
